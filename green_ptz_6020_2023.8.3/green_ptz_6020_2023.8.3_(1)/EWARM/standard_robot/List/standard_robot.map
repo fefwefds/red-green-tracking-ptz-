@@ -1,0 +1,1238 @@
+###############################################################################
+#
+# IAR ELF Linker V9.20.1.318/W64 for ARM                  06/Aug/2023  03:32:31
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Exe\standard_robot.out
+#    Map file     =
+#        E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\List\standard_robot.map
+#    Command line =
+#        -f "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Exe\standard_robot.out.rsp"
+#        ("E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\adc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\dispaly\ANO_DT.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\IMU\BMI088driver.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\IMU\BMI088Middleware.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_adc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_buzzer.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_can.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_crc32.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_delay.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_flash.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_fric.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_i2c.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_imu_pwm.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_laser.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_led.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_rc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_rng.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_servo_pwm.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_spi.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Bsp_board\bsp_usart.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\can.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\CAN_receive.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\cmsis_os.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\crc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\refree\CRC8_CRC16.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\croutine.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\detect_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\dma.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\event_groups.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\refree\fifo.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\freertos.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\gpio.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\heap_4.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\i2c.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\INS_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\IMU\ist8310driver.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\IMU\ist8310driver_middleware.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\led_flow_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\list.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\IMU\MahonyAHRS.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\main.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\refree\mem_mang4.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\dispaly\OLED.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\port.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\portasm.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\queue.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\refree\referee.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\referee_usart_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\remote_control.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\rng.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\rtc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\spi.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\EWARM\startup_stm32f407xx.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_adc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_adc_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_can.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_cortex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_crc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_dma_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_exti.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_flash_ramfunc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_gpio.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_i2c_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\stm32f4xx_hal_msp.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_pcd.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_pcd_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_pwr.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_pwr_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rcc_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rng.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_rtc_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_spi.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_tim.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_tim_ex.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_hal_uart.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\stm32f4xx_it.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_ll_adc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver\stm32f4xx_ll_usb.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\stream_buffer.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Drivers\CMSIS\system_stm32f4xx.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\tasks.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\tim.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS\timers.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\usart.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\usb_device.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\USB_Device_Library\usbd_cdc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\usbd_cdc_if.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\usbd_conf.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\USB_Device_Library\usbd_core.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\USB_Device_Library\usbd_ctlreq.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Application\User\usbd_desc.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Middlewares\USB_Device_Library\usbd_ioreq.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\voltage_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\zn_chassis_motor.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\zn_chassis_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\zn_display_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\zn_gimbal_motor.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\zn_gimbal_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\zn_interaction.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\zn_motor.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\zn_pid.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\zn_shoot_task.o"
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Obj\Code\task\zn_vision_task.o"
+#        --no_out_extension -o
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\Exe\standard_robot.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM\standard_robot\List\standard_robot.map" --config
+#        "E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3
+#        副本\EWARM/stm32f407xx_flash.icf" --semihosting --entry
+#        __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__Heap_Handler  = DLMalloc
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The advanced heap was selected because the application calls memory
+allocation functions outside of system library functions, and there
+are calls to deallocation functions in the application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x188
+  .intvec            ro code   0x800'0000   0x188  startup_stm32f407xx.o [1]
+                             - 0x800'0188   0x188
+
+"P1":                                      0x73ab
+  .text              ro code   0x800'0188   0x794  bsp_spi.o [3]
+  .text              ro code   0x800'091c   0x74a  stm32f4xx_hal_tim.o [10]
+  .text              ro code   0x800'1066    0x3a  packbits_init_single.o [15]
+  .text              ro code   0x800'10a0   0x5e0  tim.o [2]
+  .text              ro code   0x800'1680     0x2  stm32f4xx_hal_tim.o [10]
+  .text              ro code   0x800'1682     0x2  stm32f4xx_hal_tim.o [10]
+  .text              ro code   0x800'1684     0x2  stm32f4xx_hal_tim.o [10]
+  .text              ro code   0x800'1686     0x2  stm32f4xx_hal_tim.o [10]
+  .text              ro code   0x800'1688     0x2  stm32f4xx_hal_tim_ex.o [10]
+  .text              ro code   0x800'168a     0x2  stm32f4xx_hal_tim.o [10]
+  .text              ro code   0x800'168c     0x2  stm32f4xx_hal_tim_ex.o [10]
+  .text              ro code   0x800'168e     0x2  stm32f4xx_hal_tim.o [10]
+  .text              ro code   0x800'1690   0x130  main.o [2]
+  .text              ro code   0x800'17c0    0x14  memset.o [15]
+  .text              ro code   0x800'17d4    0xe0  stm32f4xx_hal_tim_ex.o [10]
+  .text              ro code   0x800'18b4   0x220  stm32f4xx_hal_gpio.o [10]
+  .text              ro code   0x800'1ad4    0x34  stm32f4xx_hal.o [10]
+  .text              ro code   0x800'1b08   0x20c  gpio.o [2]
+  .text              ro code   0x800'1d14    0xa8  dma.o [2]
+  .text              ro code   0x800'1dbc   0x118  adc.o [2]
+  .text              ro code   0x800'1ed4   0x154  can.o [2]
+  .text              ro code   0x800'2028   0x1e4  i2c.o [2]
+  .text              ro code   0x800'220c   0x1cc  spi.o [2]
+  .text              ro code   0x800'23d8   0x234  usart.o [2]
+  .text              ro code   0x800'260c    0x4c  crc.o [2]
+  .text              ro code   0x800'2658    0x4c  rng.o [2]
+  .text              ro code   0x800'26a4    0x70  rtc.o [2]
+  .text              ro code   0x800'2714    0x5c  bsp_can.o [3]
+  .text              ro code   0x800'2770    0x28  bsp_delay.o [3]
+  .text              ro code   0x800'2798   0x200  remote_control.o [4]
+  .text              ro code   0x800'2998    0xb4  zn_interaction.o [4]
+  .text              ro code   0x800'2a4c   0x2f8  zn_motor.o [4]
+  .text              ro code   0x800'2d44   0x224  zn_chassis_task.o [8]
+  .text              ro code   0x800'2f68    0x28  stm32f4xx_hal.o [10]
+  .text              ro code   0x800'2f90     0x6  ABImemclr4.o [15]
+  .text              ro code   0x800'2f98   0x31c  stm32f4xx_hal_rcc.o [10]
+  .text              ro code   0x800'32b4   0x154  stm32f4xx_hal_rcc.o [10]
+  .text              ro code   0x800'3408    0x12  ABImemset_small.o [15]
+  .text              ro code   0x800'341c   0x39c  INS_task.o [8]
+  .text              ro code   0x800'37b8    0xc4  stm32f4xx_hal_cortex.o [10]
+  .text              ro code   0x800'387c    0x40  stm32f4xx_hal.o [10]
+  .text              ro code   0x800'38bc    0x40  stm32f4xx_hal_msp.o [2]
+  .text              ro code   0x800'38fc   0x2b4  stm32f4xx_hal_adc.o [10]
+  .text              ro code   0x800'3bb0   0x630  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'41e0   0x154  stm32f4xx_hal_i2c.o [10]
+  .text              ro code   0x800'4334   0x37c  stm32f4xx_hal_dma.o [10]
+  .text              ro code   0x800'46b0    0xc2  stm32f4xx_hal_spi.o [10]
+  .text              ro code   0x800'4774   0x5cc  stm32f4xx_hal_uart.o [10]
+  .text              ro code   0x800'4d40    0x20  stm32f4xx_hal_crc.o [10]
+  .text              ro code   0x800'4d60    0x32  stm32f4xx_hal_rng.o [10]
+  .text              ro code   0x800'4d94   0x120  stm32f4xx_hal_rtc.o [10]
+  .text              ro code   0x800'4eb4   0x130  stm32f4xx_hal_rcc_ex.o [10]
+  .text              ro code   0x800'4fe4   0x38c  CAN_receive.o [4]
+  .text              ro code   0x800'5370     0xc  stm32f4xx_hal.o [10]
+  .text              ro code   0x800'537c    0x32  ABImemset48.o [15]
+  .text              ro code   0x800'53b0    0x60  stm32f4xx_hal_rcc.o [10]
+  .text              ro code   0x800'5410    0x50  detect_task.o [4]
+  .text              ro code   0x800'5460   0x214  tasks.o [11]
+  .text              ro code   0x800'5674     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'5676     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'5678     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'567a     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'567c     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'567e     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'5680     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'5682     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'5684     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'5686     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'5688     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'568a     0x2  stm32f4xx_hal_can.o [10]
+  .text              ro code   0x800'568c     0x2  stm32f4xx_hal_uart.o [10]
+  .text              ro code   0x800'568e     0x2  stm32f4xx_hal_uart.o [10]
+  .text              ro code   0x800'5690     0x2  stm32f4xx_hal_uart.o [10]
+  .text              ro code   0x800'5692     0x2  stm32f4xx_hal_uart.o [10]
+  .text              ro code   0x800'5694   0x106  I64DivMod_small.o [15]
+  .text              ro code   0x800'579c    0x22  S32ToDbl.o [14]
+  .text              ro code   0x800'57c0   0x246  DblDiv.o [14]
+  .text              ro code   0x800'5a06    0x40  list.o [11]
+  .text              ro code   0x800'5a48    0x7a  port.o [11]
+  .text              ro code   0x800'5ac4     0x2  I64DivZer.o [15]
+  .text              ro code   0x800'5ac8   0x6f6  stm32f4xx_hal_pcd.o [10]
+  .text              ro code   0x800'61c0   0x5c4  stm32f4xx_ll_usb.o [10]
+  .text              ro code   0x800'6784   0x146  usbd_conf.o [2]
+  .text              ro code   0x800'68ca     0x2  stm32f4xx_hal_pcd_ex.o [10]
+  .text              ro code   0x800'68cc   0x27a  usbd_core.o [12]
+  .text              ro code   0x800'6b48   0x458  usbd_ctlreq.o [12]
+  .text              ro code   0x800'6fa0    0x4c  usbd_ioreq.o [12]
+  .text              ro code   0x800'6fec    0xd4  zn_vision_task.o [8]
+  CODE               ro code   0x800'70c0    0xb0  portasm.o [11]
+  .text              ro code   0x800'7170    0x84  stm32f4xx_it.o [2]
+  .text              ro code   0x800'71f4    0x10  stm32f4xx_hal.o [10]
+  .text              ro code   0x800'7204    0x60  system_stm32f4xx.o [9]
+  .text              ro code   0x800'7264    0x5c  bsp_i2c.o [3]
+  .text              ro code   0x800'72c0    0x38  zero_init3.o [15]
+  .text              ro code   0x800'72f8    0x28  data_init.o [15]
+  .text              ro code   0x800'7320    0x22  fpinit_M.o [14]
+  .iar.init_table    const     0x800'7344    0x20  - Linker created -
+  .text              ro code   0x800'7364    0x1e  cmain.o [15]
+  .text              ro code   0x800'7382     0x4  low_level_init.o [13]
+  .text              ro code   0x800'7386     0x4  exit.o [13]
+  .text              ro code   0x800'738c     0xa  cexit.o [15]
+  .text              ro code   0x800'7398    0x14  exit.o [16]
+  .text              ro code   0x800'73ac    0x1c  cstartup_M.o [15]
+  .text              ro code   0x800'73c8    0x10  startup_stm32f407xx.o [1]
+  .rodata            const     0x800'73d8     0x8  system_stm32f4xx.o [9]
+  .text              ro code   0x800'73e0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'73e4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'73e8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'73ec     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'73f0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'73f4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'73f8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'73fc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7400     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7404     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7408     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'740c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7410     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7414     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7418     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'741c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7420     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7424     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7428     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'742c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7430     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7434     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7438     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'743c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7440     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7444     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7448     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'744c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7450     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7454     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7458     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'745c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7460     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7464     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7468     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'746c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7470     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7474     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7478     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'747c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7480     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7484     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7488     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'748c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7490     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7494     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'7498     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'749c     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74a0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74a4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74a8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74ac     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74b0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74b4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74b8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74bc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74c0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74c4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74c8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74cc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74d0     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74d4     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74d8     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74dc     0x4  startup_stm32f407xx.o [1]
+  .text              ro code   0x800'74e0     0x4  startup_stm32f407xx.o [1]
+  .rodata            const     0x800'74e4     0x0  zero_init3.o [15]
+  .rodata            const     0x800'74e4     0x0  packbits_init_single.o [15]
+  Initializer bytes  const     0x800'74e4    0x4f  <for P2-1>
+                             - 0x800'7533  0x73ab
+
+"P2", part 1 of 3:                          0x1c4
+  P2-1                        0x2000'0000   0x1c4  <Init block>
+    .data            inited   0x2000'0000    0xf0  INS_task.o [8]
+    .data            inited   0x2000'00f0     0xc  port.o [11]
+    .data            inited   0x2000'00fc     0xc  stm32f4xx_hal.o [10]
+    .data            inited   0x2000'0108     0x4  system_stm32f4xx.o [9]
+    .data            inited   0x2000'010c    0x58  zn_chassis_task.o [8]
+    .data            inited   0x2000'0164    0x30  zn_chassis_task.o [8]
+    .data            inited   0x2000'0194    0x30  zn_chassis_task.o [8]
+                            - 0x2000'01c4   0x1c4
+
+"P2", part 2 of 3:                         0x197c
+  .bss               zero     0x2000'01c4   0x408  usbd_conf.o [2]
+  .bss               zero     0x2000'05cc   0x21c  detect_task.o [4]
+  .bss               zero     0x2000'07e8   0x130  zn_motor.o [4]
+  .bss               zero     0x2000'0918    0xc0  spi.o [2]
+  .bss               zero     0x2000'09d8    0x64  remote_control.o [4]
+  .bss               zero     0x2000'0a40    0xb0  zn_interaction.o [4]
+  .bss               zero     0x2000'0af0    0x9c  tasks.o [11]
+  .bss               zero     0x2000'0b8c    0x9c  zn_motor.o [4]
+  .bss               zero     0x2000'0c28    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'0cc0    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'0d58    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'0df0    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'0e88    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'0f20    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'0fb8    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'1050    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'10e8    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'1180    0x98  zn_motor.o [4]
+  .bss               zero     0x2000'1218    0x8c  tasks.o [11]
+  .bss               zero     0x2000'12a4    0x54  i2c.o [2]
+  .bss               zero     0x2000'12f8    0x88  CAN_receive.o [4]
+  .bss               zero     0x2000'1380    0x80  zn_chassis_task.o [8]
+  .bss               zero     0x2000'1400    0x60  i2c.o [2]
+  .bss               zero     0x2000'1460    0x60  usart.o [2]
+  .bss               zero     0x2000'14c0    0x60  usart.o [2]
+  .bss               zero     0x2000'1520    0x60  usart.o [2]
+  .bss               zero     0x2000'1580    0x60  usart.o [2]
+  .bss               zero     0x2000'15e0    0x58  spi.o [2]
+  .bss               zero     0x2000'1638    0x58  spi.o [2]
+  .bss               zero     0x2000'1690    0x54  i2c.o [2]
+  .bss               zero     0x2000'16e4    0x54  i2c.o [2]
+  .bss               zero     0x2000'1738    0x48  adc.o [2]
+  .bss               zero     0x2000'1780    0x48  adc.o [2]
+  .bss               zero     0x2000'17c8    0x48  tim.o [2]
+  .bss               zero     0x2000'1810    0x48  tim.o [2]
+  .bss               zero     0x2000'1858    0x48  tim.o [2]
+  .bss               zero     0x2000'18a0    0x48  tim.o [2]
+  .bss               zero     0x2000'18e8    0x48  tim.o [2]
+  .bss               zero     0x2000'1930    0x48  tim.o [2]
+  .bss               zero     0x2000'1978    0x44  usart.o [2]
+  .bss               zero     0x2000'19bc    0x44  usart.o [2]
+  .bss               zero     0x2000'1a00    0x44  usart.o [2]
+  .bss               zero     0x2000'1a44    0x30  CAN_receive.o [4]
+  .bss               zero     0x2000'1a74    0x28  can.o [2]
+  .bss               zero     0x2000'1a9c    0x28  can.o [2]
+  .bss               zero     0x2000'1ac4    0x20  rtc.o [2]
+  .bss               zero     0x2000'1ae4    0x1c  zn_vision_task.o [8]
+  .bss               zero     0x2000'1b00    0x18  CAN_receive.o [4]
+  .bss               zero     0x2000'1b18    0x10  rng.o [2]
+  .bss               zero     0x2000'1b28     0x8  bsp_delay.o [3]
+  .bss               zero     0x2000'1b30     0x8  crc.o [2]
+  .bss               zero     0x2000'1b38     0x4  can.o [2]
+  .bss               zero     0x2000'1b3c     0x1  usbd_ctlreq.o [12]
+  .bss               zero     0x2000'1b3d     0x1  zn_vision_task.o [8]
+  .bss               zero     0x2000'1b3e     0x1  zn_vision_task.o [8]
+                            - 0x2000'1b3f  0x197b
+
+"P2", part 3 of 3:                         0x2000
+  CSTACK                      0x2000'1b40  0x2000  <Block>
+    CSTACK           uninit   0x2000'1b40  0x2000  <Block tail>
+                            - 0x2000'3b40  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'7533   0x80f'ffff  0xf'8acd
+  0x2000'3b40  0x2001'ffff  0x1'c4c0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x197b:
+          0x2000'01c4  0x197b
+
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x4f (17% of destination):
+           0x800'74e4    0x4f
+    1 destination range, total size 0x1c4:
+          0x2000'0000   0x1c4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Application\EWARM: [1]
+    startup_stm32f407xx.o       668
+    -------------------------------------------------
+    Total:                      668
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Application\User: [2]
+    adc.o                       280               144
+    can.o                       340                84
+    crc.o                        76                 8
+    dma.o                       168
+    gpio.o                      524
+    i2c.o                       484               348
+    main.o                      304
+    rng.o                        76                16
+    rtc.o                       112                32
+    spi.o                       460               368
+    stm32f4xx_hal_msp.o          64
+    stm32f4xx_it.o              132
+    tim.o                     1'504               432
+    usart.o                     564               588
+    usbd_conf.o                 326             1'032
+    -------------------------------------------------
+    Total:                    5'414             3'052
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Bsp_board: [3]
+    bsp_can.o                    92
+    bsp_delay.o                  40                 8
+    bsp_i2c.o                    92
+    bsp_spi.o                 1'940
+    -------------------------------------------------
+    Total:                    2'164                 8
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code: [4]
+    CAN_receive.o               908               208
+    detect_task.o                80               540
+    remote_control.o            512               100
+    zn_interaction.o            180               176
+    zn_motor.o                  760             1'980
+    -------------------------------------------------
+    Total:                    2'440             3'004
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\IMU: [5]
+    -------------------------------------------------
+    Total:
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\dispaly: [6]
+    -------------------------------------------------
+    Total:
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\refree: [7]
+    -------------------------------------------------
+    Total:
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\task: [8]
+    INS_task.o                  924       41      240
+    zn_chassis_task.o           548       33      312
+    zn_vision_task.o            212                30
+    -------------------------------------------------
+    Total:                    1'684       74      582
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Drivers\CMSIS: [9]
+    system_stm32f4xx.o           96        8        4
+    -------------------------------------------------
+    Total:                       96        8        4
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver: [10]
+    stm32f4xx_hal.o             184        2       12
+    stm32f4xx_hal_adc.o         692
+    stm32f4xx_hal_can.o       1'608
+    stm32f4xx_hal_cortex.o      196
+    stm32f4xx_hal_crc.o          32
+    stm32f4xx_hal_dma.o         892
+    stm32f4xx_hal_gpio.o        544
+    stm32f4xx_hal_i2c.o         340
+    stm32f4xx_hal_pcd.o       1'782
+    stm32f4xx_hal_pcd_ex.o        2
+    stm32f4xx_hal_rcc.o       1'232
+    stm32f4xx_hal_rcc_ex.o      304
+    stm32f4xx_hal_rng.o          50
+    stm32f4xx_hal_rtc.o         288
+    stm32f4xx_hal_spi.o         194
+    stm32f4xx_hal_tim.o       1'878
+    stm32f4xx_hal_tim_ex.o      228
+    stm32f4xx_hal_uart.o      1'492
+    stm32f4xx_ll_usb.o        1'476
+    -------------------------------------------------
+    Total:                   13'414        2       12
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS: [11]
+    list.o                       64
+    port.o                      122        3       12
+    portasm.o                   176
+    tasks.o                     532               296
+    -------------------------------------------------
+    Total:                      894        3      308
+
+E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Middlewares\USB_Device_Library: [12]
+    usbd_core.o                 634
+    usbd_ctlreq.o             1'112                 1
+    usbd_ioreq.o                 76
+    -------------------------------------------------
+    Total:                    1'822                 1
+
+dl7M_tlf.a: [13]
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                        8
+
+m7M_tls.a: [14]
+    DblDiv.o                    582
+    S32ToDbl.o                   34
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                      650
+
+rt7M_tl.a: [15]
+    ABImemclr4.o                  6
+    ABImemset48.o                50
+    ABImemset_small.o            18
+    I64DivMod_small.o           262
+    I64DivZer.o                   2
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 28
+    data_init.o                  40
+    memset.o                     20
+    packbits_init_single.o       58
+    zero_init3.o                 56
+    -------------------------------------------------
+    Total:                      580
+
+shb_l.a: [16]
+    exit.o                       20
+    -------------------------------------------------
+    Total:                       20
+
+    Gaps                         28        2        4
+    Linker created                        32    8'192
+-----------------------------------------------------
+    Grand Total:             29'882      121   15'167
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'7344          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'7364          --   Gb  - Linker created -
+?main                    0x800'7365         Code  Gb  cmain.o [15]
+AHBPrescTable            0x800'7254   0x10  Data  Gb  system_stm32f4xx.o [9]
+APBPrescTable            0x800'73d8    0x8  Data  Gb  system_stm32f4xx.o [9]
+Assign_To_M6020_angle    0x800'2aa5    0xa  Code  Gb  zn_motor.o [4]
+BusFault_Handler         0x800'7177    0x2  Code  Gb  stm32f4xx_it.o [2]
+CAN1_RX0_IRQHandler      0x800'71a7    0x6  Code  Gb  stm32f4xx_it.o [2]
+CAN2_RX0_IRQHandler      0x800'71bf    0x6  Code  Gb  stm32f4xx_it.o [2]
+CAN_Set_Current          0x800'5101  0x14c  Code  Gb  CAN_receive.o [4]
+CHASSIS_Single_Loop_Out
+                         0x800'2d49   0xc6  Code  Gb  zn_chassis_task.o [8]
+CSTACK$$Base            0x2000'1b40          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'3b40          --   Gb  - Linker created -
+DJI_RC                  0x2000'09d8   0x1c  Data  Gb  remote_control.o [4]
+DMA1_Stream7_IRQHandler
+                         0x800'7265   0x42  Code  Gb  bsp_i2c.o [3]
+DMA2_Stream1_IRQHandler
+                         0x800'71b9    0x6  Code  Gb  stm32f4xx_it.o [2]
+DMA2_Stream2_IRQHandler
+                         0x800'3595  0x1c6  Code  Gb  INS_task.o [8]
+DMA2_Stream6_IRQHandler
+                         0x800'71cb    0x6  Code  Gb  stm32f4xx_it.o [2]
+DMA2_Stream7_IRQHandler
+                         0x800'71d1    0x6  Code  Gb  stm32f4xx_it.o [2]
+DMA_CalcBaseAndBitshift
+                         0x800'4681   0x26  Code  Lc  stm32f4xx_hal_dma.o [10]
+DMA_CalcBaseAndBitshift::flagBitshiftOffset
+                         0x800'46a8    0x8  Data  Lc  stm32f4xx_hal_dma.o [10]
+Data_can1               0x2000'1314   0x20  Data  Gb  CAN_receive.o [4]
+Data_can2               0x2000'1334   0x20  Data  Gb  CAN_receive.o [4]
+DebugMon_Handler         0x800'717b    0x2  Code  Gb  stm32f4xx_it.o [2]
+EXTI0_IRQHandler         0x800'7195    0x6  Code  Gb  stm32f4xx_it.o [2]
+EXTI3_IRQHandler         0x800'719b    0x6  Code  Gb  stm32f4xx_it.o [2]
+EXTI4_IRQHandler         0x800'71a1    0x6  Code  Gb  stm32f4xx_it.o [2]
+EXTI9_5_IRQHandler       0x800'71ad    0x6  Code  Gb  stm32f4xx_it.o [2]
+Error_Handler            0x800'17bd    0x4  Code  Gb  main.o [2]
+HAL_ADC_ConfigChannel    0x800'3a67  0x110  Code  Gb  stm32f4xx_hal_adc.o [10]
+HAL_ADC_Init             0x800'38fd  0x156  Code  Gb  stm32f4xx_hal_adc.o [10]
+HAL_ADC_MspInit          0x800'1e3b   0x7e  Code  Gb  adc.o [2]
+HAL_CAN_ActivateNotification
+                         0x800'3fcb   0x16  Code  Gb  stm32f4xx_hal_can.o [10]
+HAL_CAN_AddTxMessage     0x800'3dfd   0xc4  Code  Gb  stm32f4xx_hal_can.o [10]
+HAL_CAN_ConfigFilter     0x800'3ca9   0xc0  Code  Gb  stm32f4xx_hal_can.o [10]
+HAL_CAN_GetRxMessage     0x800'3ed3   0xe4  Code  Gb  stm32f4xx_hal_can.o [10]
+HAL_CAN_IRQHandler       0x800'3fe7  0x1fa  Code  Gb  stm32f4xx_hal_can.o [10]
+HAL_CAN_Init             0x800'3bb1   0xe6  Code  Gb  stm32f4xx_hal_can.o [10]
+HAL_CAN_MspInit          0x800'1f1d   0xc6  Code  Gb  can.o [2]
+HAL_CAN_RxFifo0MsgPendingCallback
+                         0x800'4fe5   0x9a  Code  Gb  CAN_receive.o [4]
+HAL_CAN_Start            0x800'3d7b   0x4c  Code  Gb  stm32f4xx_hal_can.o [10]
+HAL_CRC_Init             0x800'4d41   0x20  Code  Gb  stm32f4xx_hal_crc.o [10]
+HAL_CRC_MspInit          0x800'2625   0x26  Code  Gb  crc.o [2]
+HAL_DMA_Abort            0x800'4423   0x78  Code  Gb  stm32f4xx_hal_dma.o [10]
+HAL_DMA_Abort_IT         0x800'449b   0x24  Code  Gb  stm32f4xx_hal_dma.o [10]
+HAL_DMA_IRQHandler       0x800'44bf  0x188  Code  Gb  stm32f4xx_hal_dma.o [10]
+HAL_DMA_Init             0x800'4335   0xee  Code  Gb  stm32f4xx_hal_dma.o [10]
+HAL_Delay                0x800'2f69   0x28  Code  Wk  stm32f4xx_hal.o [10]
+HAL_GPIO_EXTI_Callback   0x800'341d   0x80  Code  Gb  INS_task.o [8]
+HAL_GPIO_EXTI_Callback{1}{4}{5}{8}{9}{11}{12}{13}{14}{15}::xHigherPriorityTaskWoken
+                        0x2000'0054    0x4  Data  Lc  INS_task.o [8]
+HAL_GPIO_EXTI_IRQHandler
+                         0x800'1a93   0x12  Code  Gb  stm32f4xx_hal_gpio.o [10]
+HAL_GPIO_Init            0x800'18b5  0x1d6  Code  Gb  stm32f4xx_hal_gpio.o [10]
+HAL_GPIO_WritePin        0x800'1a8b    0x8  Code  Gb  stm32f4xx_hal_gpio.o [10]
+HAL_GetTick              0x800'5371    0xc  Code  Wk  stm32f4xx_hal.o [10]
+HAL_I2C_Init             0x800'41e1  0x12e  Code  Gb  stm32f4xx_hal_i2c.o [10]
+HAL_I2C_MspInit          0x800'2083  0x13c  Code  Gb  i2c.o [2]
+HAL_IncTick              0x800'71f5   0x10  Code  Wk  stm32f4xx_hal.o [10]
+HAL_Init                 0x800'1ad5   0x30  Code  Gb  stm32f4xx_hal.o [10]
+HAL_InitTick             0x800'387d   0x40  Code  Wk  stm32f4xx_hal.o [10]
+HAL_MspInit              0x800'38bd   0x40  Code  Gb  stm32f4xx_hal_msp.o [2]
+HAL_NVIC_EnableIRQ       0x800'3827   0x16  Code  Gb  stm32f4xx_hal_cortex.o [10]
+HAL_NVIC_SetPriority     0x800'37ed   0x3a  Code  Gb  stm32f4xx_hal_cortex.o [10]
+HAL_NVIC_SetPriorityGrouping
+                         0x800'37d3   0x1a  Code  Gb  stm32f4xx_hal_cortex.o [10]
+HAL_PCDEx_LPM_Callback   0x800'68cb    0x2  Code  Wk  stm32f4xx_hal_pcd_ex.o [10]
+HAL_PCD_ConnectCallback
+                         0x800'682d    0x8  Code  Gb  usbd_conf.o [2]
+HAL_PCD_DataInStageCallback
+                         0x800'67a5   0x12  Code  Gb  usbd_conf.o [2]
+HAL_PCD_DataOutStageCallback
+                         0x800'6791   0x14  Code  Gb  usbd_conf.o [2]
+HAL_PCD_DisconnectCallback
+                         0x800'6835    0x8  Code  Gb  usbd_conf.o [2]
+HAL_PCD_EP_ClrStall      0x800'615b   0x2e  Code  Gb  stm32f4xx_hal_pcd.o [10]
+HAL_PCD_EP_Open          0x800'6033   0x56  Code  Gb  stm32f4xx_hal_pcd.o [10]
+HAL_PCD_EP_Receive       0x800'6089   0x16  Code  Gb  stm32f4xx_hal_pcd.o [10]
+HAL_PCD_EP_SetStall      0x800'60ef   0x64  Code  Gb  stm32f4xx_hal_pcd.o [10]
+HAL_PCD_EP_Transmit      0x800'609f   0x12  Code  Gb  stm32f4xx_hal_pcd.o [10]
+HAL_PCD_IRQHandler       0x800'5ac9  0x530  Code  Gb  stm32f4xx_hal_pcd.o [10]
+HAL_PCD_ISOINIncompleteCallback
+                         0x800'6825    0x8  Code  Gb  usbd_conf.o [2]
+HAL_PCD_ISOOUTIncompleteCallback
+                         0x800'681d    0x8  Code  Gb  usbd_conf.o [2]
+HAL_PCD_ResetCallback    0x800'67bf   0x2c  Code  Gb  usbd_conf.o [2]
+HAL_PCD_ResumeCallback   0x800'6815    0x8  Code  Gb  usbd_conf.o [2]
+HAL_PCD_SOFCallback      0x800'67b7    0x8  Code  Gb  usbd_conf.o [2]
+HAL_PCD_SetAddress       0x800'6011   0x22  Code  Gb  stm32f4xx_hal_pcd.o [10]
+HAL_PCD_SetupStageCallback
+                         0x800'6785    0xc  Code  Gb  usbd_conf.o [2]
+HAL_PCD_SuspendCallback
+                         0x800'67eb   0x2a  Code  Gb  usbd_conf.o [2]
+HAL_RCCEx_PeriphCLKConfig
+                         0x800'4eb5  0x108  Code  Gb  stm32f4xx_hal_rcc_ex.o [10]
+HAL_RCC_CAN1_CLK_ENABLED
+                        0x2000'1b38    0x4  Data  Lc  can.o [2]
+HAL_RCC_ClockConfig      0x800'32b5  0x100  Code  Gb  stm32f4xx_hal_rcc.o [10]
+HAL_RCC_GetHCLKFreq      0x800'33c1    0x6  Code  Gb  stm32f4xx_hal_rcc.o [10]
+HAL_RCC_GetPCLK1Freq     0x800'33c7   0x10  Code  Gb  stm32f4xx_hal_rcc.o [10]
+HAL_RCC_GetPCLK2Freq     0x800'33d7    0xe  Code  Gb  stm32f4xx_hal_rcc.o [10]
+HAL_RCC_OscConfig        0x800'2f99  0x31c  Code  Wk  stm32f4xx_hal_rcc.o [10]
+HAL_RNG_Init             0x800'4d61   0x32  Code  Gb  stm32f4xx_hal_rng.o [10]
+HAL_RNG_MspInit          0x800'2671   0x26  Code  Gb  rng.o [2]
+HAL_RTC_Init             0x800'4d95   0x8e  Code  Gb  stm32f4xx_hal_rtc.o [10]
+HAL_RTC_MspInit          0x800'26d1   0x32  Code  Gb  rtc.o [2]
+HAL_RTC_WaitForSynchro   0x800'4e4d   0x32  Code  Gb  stm32f4xx_hal_rtc.o [10]
+HAL_SPI_Init             0x800'46b1   0xb6  Code  Gb  stm32f4xx_hal_spi.o [10]
+HAL_SPI_MspInit          0x800'2263  0x136  Code  Gb  spi.o [2]
+HAL_SYSTICK_Config       0x800'383d   0x28  Code  Gb  stm32f4xx_hal_cortex.o [10]
+HAL_TIMEx_BreakCallback
+                         0x800'1689    0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [10]
+HAL_TIMEx_CommutCallback
+                         0x800'168d    0x2  Code  Wk  stm32f4xx_hal_tim_ex.o [10]
+HAL_TIMEx_ConfigBreakDeadTime
+                         0x800'1861   0x54  Code  Gb  stm32f4xx_hal_tim_ex.o [10]
+HAL_TIMEx_MasterConfigSynchronization
+                         0x800'17d5   0x6e  Code  Gb  stm32f4xx_hal_tim_ex.o [10]
+HAL_TIM_Base_Init        0x800'091d   0x1a  Code  Gb  stm32f4xx_hal_tim.o [10]
+HAL_TIM_Base_MspInit     0x800'13a7   0xa4  Code  Gb  tim.o [2]
+HAL_TIM_Base_Start       0x800'0937   0x6c  Code  Gb  stm32f4xx_hal_tim.o [10]
+HAL_TIM_ConfigClockSource
+                         0x800'0cff   0xaa  Code  Gb  stm32f4xx_hal_tim.o [10]
+HAL_TIM_IRQHandler       0x800'0ae9  0x142  Code  Gb  stm32f4xx_hal_tim.o [10]
+HAL_TIM_MspPostInit      0x800'144b  0x198  Code  Gb  tim.o [2]
+HAL_TIM_PWM_ConfigChannel
+                         0x800'0c3b   0xb6  Code  Gb  stm32f4xx_hal_tim.o [10]
+HAL_TIM_PWM_Init         0x800'09cb   0x1a  Code  Gb  stm32f4xx_hal_tim.o [10]
+HAL_TIM_PWM_Start        0x800'09e5   0x96  Code  Gb  stm32f4xx_hal_tim.o [10]
+HAL_UART_IRQHandler      0x800'4843  0x27e  Code  Gb  stm32f4xx_hal_uart.o [10]
+HAL_UART_Init            0x800'4775   0x1e  Code  Gb  stm32f4xx_hal_uart.o [10]
+HAL_UART_MspInit         0x800'2447  0x16e  Code  Gb  usart.o [2]
+HAL_UART_Receive_IT      0x800'47ef   0x30  Code  Gb  stm32f4xx_hal_uart.o [10]
+HardFault_Handler        0x800'7173    0x2  Code  Gb  stm32f4xx_it.o [2]
+INS_accel               0x2000'0044    0xc  Data  Lc  INS_task.o [8]
+INS_angle               0x2000'00e4    0xc  Data  Gb  INS_task.o [8]
+INS_gyro                0x2000'00bc    0xc  Data  Lc  INS_task.o [8]
+INS_mag                 0x2000'00c8    0xc  Data  Lc  INS_task.o [8]
+INS_quat                0x2000'00d4   0x10  Data  Lc  INS_task.o [8]
+INS_task_local_handler  0x2000'0050    0x4  Data  Lc  INS_task.o [8]
+M6020_angle_cal          0x800'2bd9   0xba  Code  Gb  zn_motor.o [4]
+MX_ADC1_Init             0x800'1dbd   0x18  Code  Gb  adc.o [2]
+MX_ADC3_Init             0x800'1dd5   0x16  Code  Gb  adc.o [2]
+MX_CAN1_Init             0x800'1ed5   0x10  Code  Gb  can.o [2]
+MX_CAN2_Init             0x800'1ee5   0x10  Code  Gb  can.o [2]
+MX_CRC_Init              0x800'260d   0x18  Code  Gb  crc.o [2]
+MX_DMA_Init              0x800'1d15   0xa8  Code  Gb  dma.o [2]
+MX_GPIO_Init             0x800'1b09  0x1d6  Code  Gb  gpio.o [2]
+MX_I2C1_Init             0x800'2029   0x12  Code  Gb  i2c.o [2]
+MX_I2C2_Init             0x800'203b   0x12  Code  Gb  i2c.o [2]
+MX_I2C3_Init             0x800'2071   0x12  Code  Gb  i2c.o [2]
+MX_RNG_Init              0x800'2659   0x18  Code  Gb  rng.o [2]
+MX_RTC_Init              0x800'26a5   0x2c  Code  Gb  rtc.o [2]
+MX_SPI1_Init             0x800'220d   0x10  Code  Gb  spi.o [2]
+MX_SPI2_Init             0x800'221d   0x10  Code  Gb  spi.o [2]
+MX_TIM10_Init            0x800'1347   0x50  Code  Gb  tim.o [2]
+MX_TIM1_Init             0x800'10a1   0x6a  Code  Gb  tim.o [2]
+MX_TIM3_Init             0x800'1119   0x2c  Code  Gb  tim.o [2]
+MX_TIM4_Init             0x800'1159   0x2c  Code  Gb  tim.o [2]
+MX_TIM5_Init             0x800'11e7   0x76  Code  Gb  tim.o [2]
+MX_TIM8_Init             0x800'127b   0x52  Code  Gb  tim.o [2]
+MX_USART1_UART_Init      0x800'23d9    0x8  Code  Gb  usart.o [2]
+MX_USART3_UART_Init      0x800'23e1   0x30  Code  Gb  usart.o [2]
+MX_USART6_UART_Init      0x800'2411    0x6  Code  Gb  usart.o [2]
+MemManage_Handler        0x800'7175    0x2  Code  Gb  stm32f4xx_it.o [2]
+Motor_All_Para_Init      0x800'2a4d   0x58  Code  Gb  zn_motor.o [4]
+Motor_message_Init       0x800'2adf   0x36  Code  Gb  zn_motor.o [4]
+Motor_speed_cal          0x800'2b15   0xc2  Code  Gb  zn_motor.o [4]
+NMI_Handler              0x800'7171    0x2  Code  Gb  stm32f4xx_it.o [2]
+OTG_FS_IRQHandler        0x800'71c5    0x6  Code  Gb  stm32f4xx_it.o [2]
+OUT_current             0x2000'1a44   0x30  Data  Gb  CAN_receive.o [4]
+PendSV_Handler           0x800'70c1         Code  Gb  portasm.o [11]
+RC_init                  0x800'2799   0x4e  Code  Gb  remote_control.o [4]
+ROBOT_Para_Init          0x800'2999   0x90  Code  Gb  zn_interaction.o [4]
+RTC_EnterInitMode        0x800'4e7f   0x36  Code  Gb  stm32f4xx_hal_rtc.o [10]
+Region$$Table$$Base      0x800'7344          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'7364          --   Gb  - Linker created -
+Robot1                  0x2000'0a40   0xb0  Data  Gb  zn_interaction.o [4]
+RxMessage               0x2000'12f8   0x1c  Data  Gb  CAN_receive.o [4]
+SPI1_DMA_enable          0x800'0189  0x742  Code  Gb  bsp_spi.o [3]
+SVC_Handler              0x800'7119         Code  Gb  portasm.o [11]
+SWAPBYTE                 0x800'6b49    0xa  Code  Lc  usbd_ctlreq.o [12]
+SysTick_Handler          0x800'717d   0x18  Code  Gb  stm32f4xx_it.o [2]
+SystemClock_Config       0x800'1717   0x9e  Code  Gb  main.o [2]
+SystemCoreClock         0x2000'0108    0x4  Data  Gb  system_stm32f4xx.o [9]
+SystemInit               0x800'7205   0x3a  Code  Gb  system_stm32f4xx.o [9]
+TIM8_TRG_COM_TIM14_IRQHandler
+                         0x800'71b3    0x6  Code  Gb  stm32f4xx_it.o [2]
+TIM_Base_SetConfig       0x800'0dc3   0x96  Code  Gb  stm32f4xx_hal_tim.o [10]
+TIM_CCxChannelCmd        0x800'104b   0x16  Code  Gb  stm32f4xx_hal_tim.o [10]
+TIM_ETR_SetConfig        0x800'1037   0x14  Code  Gb  stm32f4xx_hal_tim.o [10]
+TIM_ITRx_SetConfig       0x800'1027   0x10  Code  Lc  stm32f4xx_hal_tim.o [10]
+TIM_OC1_SetConfig        0x800'0e59   0x58  Code  Lc  stm32f4xx_hal_tim.o [10]
+TIM_OC2_SetConfig        0x800'0eb1   0x60  Code  Gb  stm32f4xx_hal_tim.o [10]
+TIM_OC3_SetConfig        0x800'0f11   0x5e  Code  Lc  stm32f4xx_hal_tim.o [10]
+TIM_OC4_SetConfig        0x800'0f6f   0x46  Code  Lc  stm32f4xx_hal_tim.o [10]
+TIM_TI1_ConfigInputStage
+                         0x800'0fe5   0x1e  Code  Lc  stm32f4xx_hal_tim.o [10]
+TIM_TI2_ConfigInputStage
+                         0x800'1003   0x24  Code  Lc  stm32f4xx_hal_tim.o [10]
+TxMessage               0x2000'1b00   0x18  Data  Gb  CAN_receive.o [4]
+UART1_Rx_Buf            0x2000'1b3d    0x1  Data  Gb  zn_vision_task.o [8]
+UART6_Rx_Buf            0x2000'1b3e    0x1  Data  Gb  zn_vision_task.o [8]
+UART_DMAAbortOnError     0x800'4b91    0xe  Code  Lc  stm32f4xx_hal_uart.o [10]
+UART_EndRxTransfer       0x800'4b49   0x2a  Code  Lc  stm32f4xx_hal_uart.o [10]
+UART_Receive_IT          0x800'4ba1   0xac  Code  Lc  stm32f4xx_hal_uart.o [10]
+UART_SetConfig           0x800'4c77   0xb0  Code  Lc  stm32f4xx_hal_uart.o [10]
+UART_Start_Receive_IT    0x800'4afb   0x36  Code  Gb  stm32f4xx_hal_uart.o [10]
+USART1_IRQHandler        0x800'6fed   0x22  Code  Gb  zn_vision_task.o [8]
+USART3_IRQHandler        0x800'27f3   0x70  Code  Gb  remote_control.o [4]
+USART6_IRQHandler        0x800'700f   0x24  Code  Gb  zn_vision_task.o [8]
+USBD_ClrClassConfig      0x800'68e1   0x10  Code  Gb  usbd_core.o [12]
+USBD_CtlContinueRx       0x800'6fc1    0x4  Code  Gb  usbd_ioreq.o [12]
+USBD_CtlContinueSendData
+                         0x800'6fb1    0x4  Code  Gb  usbd_ioreq.o [12]
+USBD_CtlError            0x800'6f8b   0x16  Code  Gb  usbd_ctlreq.o [12]
+USBD_CtlReceiveStatus    0x800'6fdf    0xe  Code  Gb  usbd_ioreq.o [12]
+USBD_CtlSendData         0x800'6fa1   0x10  Code  Gb  usbd_ioreq.o [12]
+USBD_CtlSendStatus       0x800'6fd1    0xe  Code  Gb  usbd_ioreq.o [12]
+USBD_Get_USB_Status      0x800'68b9   0x12  Code  Gb  usbd_conf.o [2]
+USBD_LL_ClearStallEP     0x800'6865    0xc  Code  Gb  usbd_conf.o [2]
+USBD_LL_DataInStage      0x800'69b1   0x96  Code  Gb  usbd_core.o [12]
+USBD_LL_DataOutStage     0x800'694d   0x64  Code  Gb  usbd_core.o [12]
+USBD_LL_DevConnected     0x800'6b29    0x4  Code  Gb  usbd_core.o [12]
+USBD_LL_DevDisconnected
+                         0x800'6b2d   0x1a  Code  Gb  usbd_core.o [12]
+USBD_LL_IsStallEP        0x800'6871   0x1e  Code  Gb  usbd_conf.o [2]
+USBD_LL_IsoINIncomplete
+                         0x800'6aed   0x1e  Code  Gb  usbd_core.o [12]
+USBD_LL_IsoOUTIncomplete
+                         0x800'6b0b   0x1e  Code  Gb  usbd_core.o [12]
+USBD_LL_OpenEP           0x800'6843   0x16  Code  Gb  usbd_conf.o [2]
+USBD_LL_PrepareReceive   0x800'68a7    0xc  Code  Gb  usbd_conf.o [2]
+USBD_LL_Reset            0x800'6a47   0x60  Code  Gb  usbd_core.o [12]
+USBD_LL_Resume           0x800'6abd   0x12  Code  Gb  usbd_core.o [12]
+USBD_LL_SOF              0x800'6acf   0x1e  Code  Gb  usbd_core.o [12]
+USBD_LL_SetSpeed         0x800'6aa7    0x6  Code  Gb  usbd_core.o [12]
+USBD_LL_SetUSBAddress    0x800'688f    0xc  Code  Gb  usbd_conf.o [2]
+USBD_LL_SetupStage       0x800'68f1   0x5c  Code  Gb  usbd_core.o [12]
+USBD_LL_StallEP          0x800'6859    0xc  Code  Gb  usbd_conf.o [2]
+USBD_LL_Suspend          0x800'6aad   0x10  Code  Gb  usbd_core.o [12]
+USBD_LL_Transmit         0x800'689b    0xc  Code  Gb  usbd_conf.o [2]
+USBD_ParseSetupRequest   0x800'6f61   0x2a  Code  Gb  usbd_ctlreq.o [12]
+USBD_SetClassConfig      0x800'68cd   0x14  Code  Gb  usbd_core.o [12]
+USBD_SetConfig::cfgidx  0x2000'1b3c    0x1  Data  Lc  usbd_ctlreq.o [12]
+USBD_StdDevReq           0x800'6b55  0x272  Code  Gb  usbd_ctlreq.o [12]
+USBD_StdEPReq            0x800'6e37  0x122  Code  Gb  usbd_ctlreq.o [12]
+USBD_StdItfReq           0x800'6deb   0x4c  Code  Gb  usbd_ctlreq.o [12]
+USB_ActivateEndpoint     0x800'62d9   0x5c  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_ActivateSetup        0x800'66cb   0x18  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_EP0StartXfer         0x800'64a3   0xc8  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_EP0_OutStart         0x800'66e3   0x44  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_EPClearStall         0x800'660d   0x32  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_EPSetStall           0x800'65dd   0x30  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_EPStartXfer          0x800'6347  0x15c  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_FlushTxFifo          0x800'628f   0x2e  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_GetDevSpeed          0x800'62bd   0x1c  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_GetMode              0x800'66c3    0x8  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_ReadDevAllInEpInterrupt
+                         0x800'6679    0xe  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_ReadDevAllOutEpInterrupt
+                         0x800'666b    0xe  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_ReadDevInEPInterrupt
+                         0x800'669d   0x26  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_ReadDevOutEPInterrupt
+                         0x800'6687   0x16  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_ReadInterrupts       0x800'6661    0xa  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_ReadPacket           0x800'659d   0x40  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_SetDevAddress        0x800'663f   0x16  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_SetTurnaroundTime    0x800'61c1   0xce  Code  Gb  stm32f4xx_ll_usb.o [10]
+USB_WritePacket          0x800'6579   0x24  Code  Gb  stm32f4xx_ll_usb.o [10]
+Uart_Protocol            0x800'703d   0x6c  Code  Gb  zn_vision_task.o [8]
+Uart_Protocol::TX_flag  0x2000'1af0    0x1  Data  Lc  zn_vision_task.o [8]
+Uart_Protocol::data     0x2000'1ae4    0xc  Data  Lc  zn_vision_task.o [8]
+UsageFault_Handler       0x800'7179    0x2  Code  Gb  stm32f4xx_it.o [2]
+ZN_chassis_task          0x800'2d45    0x2  Code  Gb  zn_chassis_task.o [8]
+__NVIC_SetPriority       0x800'37b9   0x1a  Code  Lc  stm32f4xx_hal_cortex.o [10]
+__aeabi_ddiv             0x800'57c1         Code  Gb  DblDiv.o [14]
+__aeabi_i2d              0x800'579d         Code  Gb  S32ToDbl.o [14]
+__aeabi_ldiv0            0x800'5ac5         Code  Gb  I64DivZer.o [15]
+__aeabi_memclr4          0x800'2f91         Code  Gb  ABImemclr4.o [15]
+__cmain                  0x800'7365         Code  Gb  cmain.o [15]
+__exit                   0x800'7399   0x14  Code  Gb  exit.o [16]
+__iar_Memset4_word       0x800'537d         Code  Gb  ABImemset48.o [15]
+__iar_Memset8_word       0x800'537d         Code  Gb  ABImemset48.o [15]
+__iar_data_init3         0x800'72f9   0x28  Code  Gb  data_init.o [15]
+__iar_init_vfp           0x800'7321         Code  Gb  fpinit_M.o [14]
+__iar_packbits_init_single3
+                         0x800'1067   0x3a  Code  Gb  packbits_init_single.o [15]
+__iar_program_start      0x800'73ad         Code  Gb  cstartup_M.o [15]
+__iar_small_Memset       0x800'3409         Code  Gb  ABImemset_small.o [15]
+__iar_small_Memset_word
+                         0x800'3409         Code  Gb  ABImemset_small.o [15]
+__iar_small_memset       0x800'3409         Code  Gb  ABImemset_small.o [15]
+__iar_small_uldivmod     0x800'5695         Code  Gb  I64DivMod_small.o [15]
+__iar_zero_init3         0x800'72c1   0x38  Code  Gb  zero_init3.o [15]
+__low_level_init         0x800'7383    0x4  Code  Gb  low_level_init.o [13]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f407xx.o [1]
+_call_main               0x800'7371         Code  Gb  cmain.o [15]
+_exit                    0x800'738d         Code  Gb  cexit.o [15]
+accel_dma_rx_buf        0x2000'0068    0xc  Data  Gb  INS_task.o [8]
+accel_dma_tx_buf        0x2000'0074    0xc  Data  Gb  INS_task.o [8]
+accel_fliter_1          0x2000'0020    0xc  Data  Lc  INS_task.o [8]
+accel_fliter_2          0x2000'002c    0xc  Data  Lc  INS_task.o [8]
+accel_fliter_3          0x2000'0038    0xc  Data  Lc  INS_task.o [8]
+accel_temp_dma_rx_buf   0x2000'0080    0x4  Data  Gb  INS_task.o [8]
+accel_temp_dma_tx_buf   0x2000'0084    0x4  Data  Gb  INS_task.o [8]
+accel_temp_update_flag  0x2000'0002    0x1  Data  Gb  INS_task.o [8]
+accel_update_flag       0x2000'0001    0x1  Data  Gb  INS_task.o [8]
+angle_flag              0x2000'1af4    0x4  Data  Gb  zn_vision_task.o [8]
+bmi088_real_data        0x2000'0088   0x24  Data  Gb  INS_task.o [8]
+can_communication_rx     0x800'52ab   0x66  Code  Gb  CAN_receive.o [4]
+can_filter_init          0x800'2715   0x5c  Code  Gb  bsp_can.o [3]
+can_message             0x2000'1358   0x28  Data  Gb  CAN_receive.o [4]
+can_message_sent         0x800'524d   0x5e  Code  Gb  CAN_receive.o [4]
+copy_can_data            0x800'50b9   0x48  Code  Gb  CAN_receive.o [4]
+delay_init               0x800'2771   0x1a  Code  Gb  bsp_delay.o [3]
+detect_hook              0x800'5411   0x4c  Code  Gb  detect_task.o [4]
+drive_BL                0x2000'10e8   0x98  Data  Gb  zn_motor.o [4]
+drive_BR                0x2000'1180   0x98  Data  Gb  zn_motor.o [4]
+drive_FL                0x2000'0fb8   0x98  Data  Gb  zn_motor.o [4]
+drive_FR                0x2000'1050   0x98  Data  Gb  zn_motor.o [4]
+err_flag                0x2000'0160    0x4  Data  Gb  zn_chassis_task.o [8]
+err_x                   0x2000'0140    0x4  Data  Gb  zn_chassis_task.o [8]
+err_y                   0x2000'0144    0x4  Data  Gb  zn_chassis_task.o [8]
+error_list              0x2000'05cc  0x21c  Data  Gb  detect_task.o [4]
+exit                     0x800'7387    0x4  Code  Gb  exit.o [13]
+fac_ms                  0x2000'1b2c    0x4  Data  Lc  bsp_delay.o [3]
+fac_us                  0x2000'1b28    0x1  Data  Lc  bsp_delay.o [3]
+flag                    0x2000'015c    0x4  Data  Gb  zn_chassis_task.o [8]
+get_moto_measure         0x800'507f   0x38  Code  Gb  CAN_receive.o [4]
+gyro_cali_offset        0x2000'0014    0xc  Data  Gb  INS_task.o [8]
+gyro_dma_rx_buf         0x2000'0058    0x8  Data  Gb  INS_task.o [8]
+gyro_dma_tx_buf         0x2000'0060    0x8  Data  Gb  INS_task.o [8]
+gyro_offset             0x2000'0008    0xc  Data  Gb  INS_task.o [8]
+gyro_update_flag        0x2000'0000    0x1  Data  Gb  INS_task.o [8]
+hadc1                   0x2000'1738   0x48  Data  Gb  adc.o [2]
+hadc3                   0x2000'1780   0x48  Data  Gb  adc.o [2]
+hcan1                   0x2000'1a74   0x28  Data  Gb  can.o [2]
+hcan2                   0x2000'1a9c   0x28  Data  Gb  can.o [2]
+hcrc                    0x2000'1b30    0x8  Data  Gb  crc.o [2]
+hdma_i2c2_tx            0x2000'1400   0x60  Data  Gb  i2c.o [2]
+hdma_spi1_rx            0x2000'0918   0x60  Data  Gb  spi.o [2]
+hdma_spi1_tx            0x2000'0978   0x60  Data  Gb  spi.o [2]
+hdma_usart1_tx          0x2000'1460   0x60  Data  Gb  usart.o [2]
+hdma_usart3_rx          0x2000'14c0   0x60  Data  Gb  usart.o [2]
+hdma_usart6_rx          0x2000'1520   0x60  Data  Gb  usart.o [2]
+hdma_usart6_tx          0x2000'1580   0x60  Data  Gb  usart.o [2]
+hi2c1                   0x2000'12a4   0x54  Data  Gb  i2c.o [2]
+hi2c2                   0x2000'1690   0x54  Data  Gb  i2c.o [2]
+hi2c3                   0x2000'16e4   0x54  Data  Gb  i2c.o [2]
+hpcd_USB_OTG_FS         0x2000'01c4  0x408  Data  Gb  usbd_conf.o [2]
+hrng                    0x2000'1b18   0x10  Data  Gb  rng.o [2]
+hrtc                    0x2000'1ac4   0x20  Data  Gb  rtc.o [2]
+hspi1                   0x2000'15e0   0x58  Data  Gb  spi.o [2]
+hspi2                   0x2000'1638   0x58  Data  Gb  spi.o [2]
+htim1                   0x2000'17c8   0x48  Data  Gb  tim.o [2]
+htim10                  0x2000'1930   0x48  Data  Gb  tim.o [2]
+htim3                   0x2000'1810   0x48  Data  Gb  tim.o [2]
+htim4                   0x2000'1858   0x48  Data  Gb  tim.o [2]
+htim5                   0x2000'18a0   0x48  Data  Gb  tim.o [2]
+htim8                   0x2000'18e8   0x48  Data  Gb  tim.o [2]
+huart1                  0x2000'1978   0x44  Data  Gb  usart.o [2]
+huart3                  0x2000'19bc   0x44  Data  Gb  usart.o [2]
+huart6                  0x2000'1a00   0x44  Data  Gb  usart.o [2]
+imu_cmd_spi_dma          0x800'349d   0xf8  Code  Lc  INS_task.o [8]
+imu_start_dma_flag      0x2000'0004    0x1  Data  Gb  INS_task.o [8]
+ist8310_real_data       0x2000'00ac   0x10  Data  Gb  INS_task.o [8]
+led_Kd                  0x2000'017c    0x4  Data  Gb  zn_chassis_task.o [8]
+led_Kd_one              0x2000'01ac    0x4  Data  Gb  zn_chassis_task.o [8]
+led_Ki                  0x2000'0178    0x4  Data  Gb  zn_chassis_task.o [8]
+led_Ki_one              0x2000'01a8    0x4  Data  Gb  zn_chassis_task.o [8]
+led_Kp                  0x2000'0174    0x4  Data  Gb  zn_chassis_task.o [8]
+led_Kp_one              0x2000'01a4    0x4  Data  Gb  zn_chassis_task.o [8]
+led_err                 0x2000'0180    0x4  Data  Gb  zn_chassis_task.o [8]
+led_err_all             0x2000'018c    0x4  Data  Gb  zn_chassis_task.o [8]
+led_err_all_one         0x2000'01bc    0x4  Data  Gb  zn_chassis_task.o [8]
+led_err_err             0x2000'0190    0x4  Data  Gb  zn_chassis_task.o [8]
+led_err_err_one         0x2000'01c0    0x4  Data  Gb  zn_chassis_task.o [8]
+led_err_one             0x2000'01b0    0x4  Data  Gb  zn_chassis_task.o [8]
+led_flow_D              0x2000'0170    0x4  Data  Gb  zn_chassis_task.o [8]
+led_flow_D_one          0x2000'01a0    0x4  Data  Gb  zn_chassis_task.o [8]
+led_flow_I              0x2000'016c    0x4  Data  Gb  zn_chassis_task.o [8]
+led_flow_I_one          0x2000'019c    0x4  Data  Gb  zn_chassis_task.o [8]
+led_flow_P              0x2000'0168    0x4  Data  Gb  zn_chassis_task.o [8]
+led_flow_P_one          0x2000'0198    0x4  Data  Gb  zn_chassis_task.o [8]
+led_gre_flow             0x800'2e11    0x4  Code  Gb  zn_chassis_task.o [8]
+led_gre_flow_one         0x800'2e15    0x2  Code  Gb  zn_chassis_task.o [8]
+led_last_err            0x2000'0184    0x4  Data  Gb  zn_chassis_task.o [8]
+led_last_err_one        0x2000'01b4    0x4  Data  Gb  zn_chassis_task.o [8]
+led_last_last_err       0x2000'0188    0x4  Data  Gb  zn_chassis_task.o [8]
+led_last_last_err_one   0x2000'01b8    0x4  Data  Gb  zn_chassis_task.o [8]
+led_output              0x2000'0164    0x4  Data  Gb  zn_chassis_task.o [8]
+led_output_one          0x2000'0194    0x4  Data  Gb  zn_chassis_task.o [8]
+location                0x2000'1380   0x60  Data  Gb  zn_chassis_task.o [8]
+location_caculate        0x800'2ecd   0x7c  Code  Gb  zn_chassis_task.o [8]
+location_x              0x2000'13e0    0x4  Data  Gb  zn_chassis_task.o [8]
+location_x_1            0x2000'0138    0x4  Data  Gb  zn_chassis_task.o [8]
+location_x_2            0x2000'13e8    0x4  Data  Gb  zn_chassis_task.o [8]
+location_x_3            0x2000'13f0    0x4  Data  Gb  zn_chassis_task.o [8]
+location_x_4            0x2000'13f8    0x4  Data  Gb  zn_chassis_task.o [8]
+location_y              0x2000'13e4    0x4  Data  Gb  zn_chassis_task.o [8]
+location_y_1            0x2000'013c    0x4  Data  Gb  zn_chassis_task.o [8]
+location_y_2            0x2000'13ec    0x4  Data  Gb  zn_chassis_task.o [8]
+location_y_3            0x2000'13f4    0x4  Data  Gb  zn_chassis_task.o [8]
+location_y_4            0x2000'13fc    0x4  Data  Gb  zn_chassis_task.o [8]
+mag_update_flag         0x2000'0003    0x1  Data  Gb  INS_task.o [8]
+main                     0x800'1691   0x86  Code  Gb  main.o [2]
+memset                   0x800'17c1   0x14  Code  Gb  memset.o [15]
+num_num                 0x2000'0148    0x4  Data  Gb  zn_chassis_task.o [8]
+paper_flag              0x2000'0134    0x4  Data  Gb  zn_chassis_task.o [8]
+pitch_motor             0x2000'0cc0   0x98  Data  Gb  zn_motor.o [4]
+pitch_motor_mid         0x2000'0128    0x4  Data  Gb  zn_chassis_task.o [8]
+pitch_motor_out         0x2000'0130    0x4  Data  Gb  zn_chassis_task.o [8]
+port_data               0x2000'010c    0xc  Data  Lc  zn_chassis_task.o [8]
+prvResetNextTaskUnblockTime
+                         0x800'55a7   0x1a  Code  Lc  tasks.o [11]
+pxCurrentTCB            0x2000'0b18    0x4  Data  Gb  tasks.o [11]
+pxDelayedTaskList       0x2000'0b1c    0x4  Data  Lc  tasks.o [11]
+pxOverflowDelayedTaskList
+                        0x2000'0b20    0x4  Data  Lc  tasks.o [11]
+pxReadyTasksLists       0x2000'1218   0x8c  Data  Lc  tasks.o [11]
+remote_control_init      0x800'27e7    0xc  Code  Gb  remote_control.o [4]
+report                  0x2000'0118    0x1  Data  Lc  zn_chassis_task.o [8]
+rotate_motor            0x2000'0b8c   0x98  Data  Gb  zn_motor.o [4]
+rudder_BL               0x2000'0e88   0x98  Data  Gb  zn_motor.o [4]
+rudder_BR               0x2000'0f20   0x98  Data  Gb  zn_motor.o [4]
+rudder_FL               0x2000'0d58   0x98  Data  Gb  zn_motor.o [4]
+rudder_FR               0x2000'0df0   0x98  Data  Gb  zn_motor.o [4]
+rx_angle                0x2000'1af8    0x4  Data  Gb  zn_vision_task.o [8]
+rx_distance             0x2000'1afc    0x4  Data  Gb  zn_vision_task.o [8]
+sbus_rx_buf             0x2000'09f4   0x48  Data  Lc  remote_control.o [4]
+sbus_to_rc               0x800'28a7   0xf2  Code  Lc  remote_control.o [4]
+serial_port_protocol     0x800'2e71   0x5a  Code  Gb  zn_chassis_task.o [8]
+speed_a1                0x2000'011c    0x4  Data  Gb  zn_chassis_task.o [8]
+speed_a2                0x2000'0120    0x4  Data  Gb  zn_chassis_task.o [8]
+total_angle_get          0x800'2ca5   0x5e  Code  Gb  zn_motor.o [4]
+total_angle_get::pos_old
+                        0x2000'0c24    0x4  Data  Lc  zn_motor.o [4]
+ucMaxSysCallPriority    0x2000'00f0    0x1  Data  Lc  port.o [11]
+ulMaxPRIGROUPValue      0x2000'00f8    0x4  Data  Lc  port.o [11]
+uwTick                  0x2000'0100    0x4  Data  Gb  stm32f4xx_hal.o [10]
+uwTickFreq              0x2000'00fc    0x1  Data  Gb  stm32f4xx_hal.o [10]
+uwTickPrio              0x2000'0104    0x4  Data  Gb  stm32f4xx_hal.o [10]
+uxCriticalNesting       0x2000'00f4    0x4  Data  Lc  port.o [11]
+uxCurrentNumberOfTasks  0x2000'0b3c    0x4  Data  Lc  tasks.o [11]
+uxDeletedTasksWaitingCleanUp
+                        0x2000'0b24    0x4  Data  Lc  tasks.o [11]
+uxListRemove             0x800'5a21   0x26  Code  Gb  list.o [11]
+uxSchedulerSuspended    0x2000'0b60    0x4  Data  Lc  tasks.o [11]
+uxTaskNumber            0x2000'0b58    0x4  Data  Lc  tasks.o [11]
+uxTopReadyPriority      0x2000'0b44    0x4  Data  Lc  tasks.o [11]
+vListInsertEnd           0x800'5a07   0x1a  Code  Gb  list.o [11]
+vPortEnableVFP           0x800'7155         Code  Gb  portasm.o [11]
+vPortStartFirstTask      0x800'7135         Code  Gb  portasm.o [11]
+vPortValidateInterruptPriority
+                         0x800'5a71   0x34  Code  Gb  port.o [11]
+vTaskNotifyGiveFromISR   0x800'55f5   0x7a  Code  Gb  tasks.o [11]
+vTaskSwitchContext       0x800'5557   0x50  Code  Gb  tasks.o [11]
+xDelayedTaskList1       0x2000'0b64   0x14  Data  Lc  tasks.o [11]
+xDelayedTaskList2       0x2000'0b78   0x14  Data  Lc  tasks.o [11]
+xNextTaskUnblockTime    0x2000'0b5c    0x4  Data  Lc  tasks.o [11]
+xNumOfOverflows         0x2000'0b54    0x4  Data  Lc  tasks.o [11]
+xPendedTicks            0x2000'0b4c    0x4  Data  Lc  tasks.o [11]
+xPendingReadyList       0x2000'0af0   0x14  Data  Lc  tasks.o [11]
+xPortSysTickHandler      0x800'5a49   0x26  Code  Gb  port.o [11]
+xSchedulerRunning       0x2000'0b48    0x4  Data  Lc  tasks.o [11]
+xSuspendedTaskList      0x2000'0b28   0x14  Data  Lc  tasks.o [11]
+xTaskGetSchedulerState   0x800'55c1   0x18  Code  Gb  tasks.o [11]
+xTaskGetTickCount        0x800'5483    0x8  Code  Gb  tasks.o [11]
+xTaskIncrementTick       0x800'548b   0xc0  Code  Gb  tasks.o [11]
+xTasksWaitingTermination
+                        0x2000'0b04   0x14  Data  Lc  tasks.o [11]
+xTickCount              0x2000'0b40    0x4  Data  Lc  tasks.o [11]
+xYieldPending           0x2000'0b50    0x4  Data  Lc  tasks.o [11]
+x_angle                 0x2000'014c    0x4  Data  Gb  zn_chassis_task.o [8]
+x_p                     0x2000'0154    0x4  Data  Gb  zn_chassis_task.o [8]
+y_angle                 0x2000'0150    0x4  Data  Gb  zn_chassis_task.o [8]
+y_p                     0x2000'0158    0x4  Data  Gb  zn_chassis_task.o [8]
+yaw_motor               0x2000'0c28   0x98  Data  Gb  zn_motor.o [4]
+yaw_motor_mid           0x2000'0124    0x4  Data  Gb  zn_chassis_task.o [8]
+yaw_motor_out           0x2000'012c    0x4  Data  Gb  zn_chassis_task.o [8]
+yuntai_pitch            0x2000'0880   0x98  Data  Gb  zn_motor.o [4]
+yuntai_yaw              0x2000'07e8   0x98  Data  Gb  zn_motor.o [4]
+
+
+[1] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Application\EWARM
+[2] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Application\User
+[3] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Bsp_board
+[4] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code
+[5] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\IMU
+[6] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\dispaly
+[7] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\refree
+[8] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Code\task
+[9] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Drivers\CMSIS
+[10] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Drivers\STM32F4xx_HAL_Driver
+[11] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Middlewares\FreeRTOS
+[12] = E:\2023.8电赛K60\绿光云台（6020）2023.8.3\绿光云台（6020）2023.8.3  副本\EWARM\standard_robot\Obj\Middlewares\USB_Device_Library
+[13] = dl7M_tlf.a
+[14] = m7M_tls.a
+[15] = rt7M_tl.a
+[16] = shb_l.a
+
+  29'882 bytes of readonly  code memory
+     121 bytes of readonly  data memory
+  15'167 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
